@@ -1,0 +1,23 @@
+# Ignore node modules everywhere
+node_modules/
+
+# Ignore frontend build/dependencies
+frontend/node_modules/
+frontend/build/
+
+# Ignore backend dependencies
+backend/node_modules/
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
